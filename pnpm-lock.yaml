@@ -5,12 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@nuxt/nitro':
-    specifier: ^0.10.0
-    version: 0.10.0
-  dotenv:
-    specifier: ^16.4.5
-    version: 16.4.5
   mongoose:
     specifier: ^8.2.1
     version: 8.2.1
@@ -1120,10 +1114,6 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: false
-
-  /@nuxt/nitro@0.10.0:
-    resolution: {integrity: sha512-3ffdZMD0WK7UNgrkBhOyPr3fyOfmy2nPMxDOaX6eUCamr5NuY7cHQhWnum/BwSm1vIOm4b9/rnd/cgYcg9qiag==}
     dev: false
 
   /@nuxt/schema@3.10.3:

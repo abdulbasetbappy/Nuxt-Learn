@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro:{
-    plugins:['~/server/index.ts'],
+    plugins:['~/server/db/index.ts'],
   },
   runtimeConfig:{
     mongoDbUrl: process.env.MONGODB_URI,
